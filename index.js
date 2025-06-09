@@ -373,6 +373,9 @@ const swaggerSpec = swaggerJsdoc({
     },
     servers: [
       {
+        url: "https://shopping-website-server.onrender.com/",
+      },
+      {
         url: "http://localhost:3000",
       },
     ],
